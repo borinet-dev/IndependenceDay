@@ -38,6 +38,32 @@
 		.s1 { text-shadow: 4px 4px 5px black; }
 		.s2 { text-shadow: 2px 2px 2px black; }
 		.s3 { text-shadow: 1px 1px 1px black; }
+		/* 기본 네비게이션 배경 및 텍스트 색상 설정 */
+        .bg-2a2a2a {
+            background-color: #2a2a2a !important;
+        }
+
+        /* 기본 링크 색상 설정 */
+        .bg-2a2a2a .nav-link {
+            color: white !important;
+            transition: color 0.3s ease-in-out; /* 부드러운 색상 전환 효과 */
+        }
+
+        /* 마우스를 올렸을 때 색상이 더 밝아지도록 설정 */
+        .bg-2a2a2a .nav-link:hover {
+            color: #90ee90 !important; /* 연한 회색 */
+        }
+
+		.border-bottom {
+	    color: red !important;
+	    text-decoration: none; /* 기본 밑줄 제거 */
+	    transition: color 0.3s ease-in-out; /* 부드러운 색상 전환 */
+		}
+
+		.border-bottom:hover {
+		    color: darkred !important; /* 마우스 오버 시 진한 빨간색 */
+		}
+
 	</style>
 	<meta charset="utf-8">
 	<title>와썹</title>
@@ -46,7 +72,7 @@
 	<meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="https://raw.githubusercontent.com/borinet-dev/img/main/wassub_icon.ico" rel="icon">
+    <link href="https://borinet-dev.github.io/img/wassub_icon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,9 +84,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="https://borinet-dev.github.io/css/css/animate/animate.min.css" rel="stylesheet">
-    <link href="https://borinet-dev.github.io/css/css/owl.carousel.css" rel="stylesheet">
-    <link href="https://borinet-dev.github.io/css/css/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://borinet-dev.github.io/css/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="https://borinet-dev.github.io/css/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://borinet-dev.github.io/css/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="https://borinet-dev.github.io/css/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +97,7 @@
 	<link href="https://borinet-dev.github.io/css/css/style3.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: #2a2a2a;">
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
@@ -79,7 +105,7 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-2a2a2a navbar-light sticky-top p-0">
         <a href="https://l2wassub.org" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <img src="https://raw.githubusercontent.com/borinet-dev/img/main/logo_wassub.png" style="max-width: auto; height: auto;">
         </a>
@@ -108,31 +134,29 @@
 
     <!-- Start -->
 <div id="viewer" class="white viewer_style rd_nav_blk">
-	<div id="bd_7139_123793" class="bd clear   hover_effect" data-default_style="viewer" data-bdfilestype="" data-bdnavside="N" style="max-width:px">
+	<div style="background-color: #2a2a2a; color: white; id="bd_7139_123793" class="bd clear   hover_effect" data-default_style="viewer" data-bdfilestype="" data-bdnavside="N" style="max-width:px">
 	<article>
 
 		<div class="document_123793_4 xe_content">
 <p><span style="color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px; box-sizing: border-box; font-weight: bolder;"><span style="box-sizing: border-box; color: rgb(51, 102, 153);">
 <img src="https://raw.githubusercontent.com/borinet-dev/IndependenceDay/main/main.png" alt="main" width="650" height="300" editor_component="image_link" /></span></span></p>
 <p><br /></p>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;"><span style="color: rgb(51, 102, 153);">● 이벤트 기간</span></div>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">-&nbsp;<strong>2024년 3월 1일 하루</strong></div>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">&nbsp;</div>
-<div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
-	<img src="https://raw.githubusercontent.com/borinet-dev/IndependenceDay/main/i-banner.png" alt="가을+맞이+선물받기_띠.png" style="height: auto;" editor_component="image_link" /></div>
-<div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
+<p style="line-height: 25px; font-family: sans-serif; letter-spacing: -1px; font-size: 20px; font-weight: bold; color: rgb(255, 177, 26); text-shadow: midnightblue 1px 1px 1.2px; border-bottom: 3px solid rgb(255, 177, 26);">이벤트 기간: 3월 1일(토) 0시&nbsp;~ 밤 12시 까지</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/borinet-dev/newyear/main/start_1.png" width="650" height="43" editor_component="image_link" /></strong></p>
 <p><br /></p>
 <img src="https://raw.githubusercontent.com/borinet-dev/IndependenceDay/main/Shot00002.jpg" alt="main" width="650" height="392" editor_component="image_link" />
 <table border="1" cellpadding="0" cellspacing="0" style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; line-height: 1.5; border-collapse: collapse; border: none; empty-cells: show; max-width: 100%; width: 880px;">
 	<tbody><tr>
-		<td style="text-align: center;"><span style="box-sizing: border-box; font-weight: 700; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important; font-size: 15px;">[이벤트 NPC – 카발리아]</span></td>
+		<td style="text-align: center;"><span style="color: white; box-sizing: border-box; font-weight: 700; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important; font-size: 15px;">[이벤트 NPC – 카발리아]</span></td>
 	</tr></tbody>
 </table>
 <div style="box-sizing: border-box;">&nbsp;</div>
 
 
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-<div style="box-sizing: border-box; background-color: rgb(255, 255, 255);">
+<div style="box-sizing: border-box;">
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
 <span style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span style="color: rgb(0, 112, 192); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 14px; letter-spacing: 0px; font-weight: 700;"></span><span style="color: rgb(0, 112, 192); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 14px; font-weight: 700;">접속시 우편으로 한복 의상 획득 (20레벨 이상. 계정당 한번수령)</span></div>
@@ -157,11 +181,11 @@
 <img src="https://raw.githubusercontent.com/borinet-dev/IndependenceDay/main/ev_kr_traditional_dress.png" class="fe-image" editor_component="image_link" style="box-sizing: border-box; vertical-align: middle; border-style: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; min-width: auto; letter-spacing: 0px !important;" /></div></div></div>
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center; letter-spacing: 0px !important;">
 <span style="box-sizing: border-box; font-size: 14px;">
-<span style="box-sizing: border-box; font-weight: bolder;">한복 의상</span></span></div></td>
-<td data-colwidth="445" style="box-sizing: border-box; border: 1px solid rgb(221, 221, 221); margin: 0px; padding: 4px 8px; vertical-align: middle; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;"><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center;"><strong style="font-size: 14px; letter-spacing: 0px;">사용하면 30분 동안 모든 기본 능력이 +1 증가하고,&nbsp;</strong><strong style="font-size: 14px; letter-spacing: 0px;">습득 EXP/SP가 10% 증가하며</strong></div><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center;"><span style="font-size: 14px;"><strong>한복을 착용한 외형으로 변경된다.</strong></span></div><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center;"><span style="font-size: 14px;"><strong>재사용시간 5분.</strong></span><br /></div></td></tr></tbody></table></div>
+<span style="color: white; box-sizing: border-box; font-weight: bolder;">한복 의상</span></span></div></td>
+<td data-colwidth="445" style="box-sizing: border-box; border: 1px solid rgb(221, 221, 221); margin: 0px; padding: 4px 8px; vertical-align: middle; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;"><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center;"><strong style="color: white; font-size: 14px; letter-spacing: 0px;">사용하면 30분 동안 모든 기본 능력이 +1 증가하고,&nbsp;습득 EXP/SP가 10% 증가하며<br>한복을 착용한 외형으로 변경된다<br>재사용시간 5분.</strong></span><br /></div></td></tr></tbody></table></div>
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></div></span></div></div>
-<div class="tableWrapper" style="font-family: sans-serif; font-size: 13px; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span style="box-sizing: border-box; font-weight: bolder; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);">※</span><span style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(158, 147, 147);">&nbsp;</span><span style="box-sizing: border-box; font-weight: bolder; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);"><span style="box-sizing: border-box; color: rgb(255, 0, 0);">삼일절 이벤트 종료시까지 사용가능.</span></span><br /></div>
-<div class="tableWrapper" style="font-family: sans-serif; font-size: 13px; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span style="box-sizing: border-box; font-weight: bolder; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);">※</span><span style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(158, 147, 147);">&nbsp;</span><span style="box-sizing: border-box; font-weight: bolder; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);"><span style="box-sizing: border-box; color: rgb(255, 0, 0);">계정 내 지급받지 못하거나 파쇄한 경우 카발리아를 통해 구매 가능.</span></span><br /></div></div><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div class="tableWrapper" style="font-family: sans-serif; font-size: 13px; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><table style="margin: 0px; padding: 0px; border: none; vertical-align: baseline; border-collapse: collapse; border-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-x: auto; text-wrap: nowrap; display: block; empty-cells: show; max-width: 99%; table-layout: fixed; width: 645px; letter-spacing: 0px !important;"><colgroup style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;"><col style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 168px; letter-spacing: 0px !important;" /><col style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 445px; letter-spacing: 0px !important;" /></colgroup><tbody style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;"></tbody></table></div>
+<div class="tableWrapper" style="font-family: sans-serif; font-size: 13px; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span style="box-sizing: border-box; color: rgb(255, 0, 0);">※ 삼일절 이벤트 종료시까지 사용가능.</span></span><br /></div>
+<div class="tableWrapper" style="font-family: sans-serif; font-size: 13px; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span style="box-sizing: border-box; color: rgb(255, 0, 0);">※ 계정 내 지급받지 못하거나 파쇄한 경우 카발리아를 통해 구매 가능.</span></span><br /></div></div><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div class="tableWrapper" style="font-family: sans-serif; font-size: 13px; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><table style="margin: 0px; padding: 0px; border: none; vertical-align: baseline; border-collapse: collapse; border-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-x: auto; text-wrap: nowrap; display: block; empty-cells: show; max-width: 99%; table-layout: fixed; width: 645px; letter-spacing: 0px !important;"><colgroup style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;"><col style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 168px; letter-spacing: 0px !important;" /><col style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 445px; letter-spacing: 0px !important;" /></colgroup><tbody style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;"></tbody></table></div>
 </div>
 
 
